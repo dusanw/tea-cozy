@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.header {
+    position: fixed;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    width: 1250px;
+    max-width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.logo {
+    margin: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navigation {
+    margin: 10px;
+}
+
+.navigation a {
+    color: seashell;
+    padding-left: 20px;
+}
+
+.our-mission {
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    height: 700px;
+    background-image: url(./images/mission-background.jpg);
+    background-size: cover;
+}
+
+.mission-message {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    max-height: 150px;
+    align-items: center;
+}
+
+.mission-message h2, h4 {
+    margin: 0;
+    padding: 5px;
+}
+
+.tea-of-the-month {
+    margin: 40px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    max-width: 100%;
+}
+
+.tea-of-the-month h2,h4 {
+    margin: 5px;
+    padding: 5px;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.steeping {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+figure {
+    margin: 0;
+    padding: 15px;
+}
+
+.location {
+    margin: 40px 25px;
+    background-image: url(./images/locations-background.webp);
+    background-size: cover;
+    height: 500px;
+    max-width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location h2 {
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 40px;
+    padding: 10px;
+    text-align: center;
+    opacity: 1;
+    line-height: 1.5;
+}
+
+.footer {
+    height: 200px;
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 0;
+}
+
+#copyright {
+    margin-left: 20px;
+    text-align: left;
+}
