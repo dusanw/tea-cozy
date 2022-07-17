@@ -38,7 +38,10 @@ body {
 }
 
 .our-mission {
+    position: relative;
     margin: 0 25px;
+    top: 70px;
+    z-index: -1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +67,7 @@ body {
 }
 
 .tea-of-the-month {
-    margin: 40px auto;
+    margin: 80px auto;
     text-align: center;
     display: flex;
     flex-direction: column;
