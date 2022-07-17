@@ -99,6 +99,8 @@ figure {
 }
 
 .location {
+    position: relative;
+    z-index: -2;
     margin: 40px 25px;
     background-image: url(./images/locations-background.webp);
     background-size: cover;
